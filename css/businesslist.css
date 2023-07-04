@@ -1,0 +1,173 @@
+html {
+    background-color: #e9ecef;
+    font-family: Nanum Gothic;
+}
+
+#businesslists-title {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 10rem;
+    left: 35%;
+}
+
+#businesslists-title .business-heading{
+    position: absolute;
+    width: 30rem;
+    text-align: center;
+} 
+
+
+
+
+
+.search {
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    margin-top: 5rem  ;
+    width: 120%;
+    /* border: 2px solid red; */
+    
+}
+
+
+#business-name {
+    width: 50%;
+    height: 100%;
+    font-family : Nanum Gothic;
+}
+
+#business-loaction {
+    width: 30%;
+    height: 100%;
+    font-family : Nanum Gothic;
+   
+
+}
+
+#business-name, #business-loaction {
+    margin: 2px 13px;
+    padding: 2px 15px;
+
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    font-size: 1.4rem;
+}
+
+.search-btn {
+    height: 115%;
+    width: 15%;
+    border-radius: 5px;
+    margin: 2px 0 0 1rem;
+    padding: 2px 4px;
+
+    border: none;
+    background-color: #0d6efd;
+}
+
+.search-btn :hover {
+    color: #343a40;
+}
+
+.search-btn a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family : Nanum Gothic;
+    color: white;
+}
+
+#businesslists-title h1 {
+    /* border: 2px solid red; */
+    color: #fff;
+    font-size: 3rem;
+}
+
+.business-list{
+    max-width: fit-content;
+    height: 25rem;
+    margin: 6rem 4rem -2rem 5rem;
+    border-radius: 5px ;
+    display: inline-block;
+    box-shadow: 3px 0px 5px 1px rgba(0,0,0,0.74);    
+    background-color: #fff;
+
+}
+.store-img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.business-name{
+    margin:0.5rem 1rem;    
+}
+.business-name .business-title{
+    padding: 3px 4px;
+    border-radius: 5px;
+    border: 1px solid #343a40 ;
+    background-color:#6c757d;
+    color: #f8f9fa;
+    box-shadow: none;
+    
+}
+.business-name .store-name{
+    margin:1rem 0;    
+}
+
+.business-name .store-name a{
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+.business-details h4, p{
+    margin: 0 0 1rem 0;
+}
+.business-details h4 .title{
+    font-style: bold;
+    text-decoration: none ;
+    color: black;
+}
+
+.business-desc{
+    max-width: 70%;
+    max-height: 70%;
+    margin-left:1rem;
+    padding: 3px 5px;
+}
+
+#btn-group{
+    margin: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+#btn-group .btn-lists{
+    border:none;
+    margin: 5rem 4px;
+    padding: 15px 4px;
+    width: 4rem;
+    height: 1rem;
+    border-radius: 5px;
+    font-family: Nanum Gothic;
+    border: 1px solid #343a40 ;
+    text-decoration: none;
+    text-align: center;
+    color: #0d6efd; 
+    font-family: Nanum Gothic;
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.69);
+}
+
+
+
+.line-break{
+    margin-top: 1.5rem;
+    height: 1px;
+    width: 23%;
+    background-color: black;
+    position: absolute;
+ 
+    top: 42.7rem;
+
+}

@@ -1,0 +1,127 @@
+html {
+    background-color: #e9ecef;
+    font-family: Nanum Gothic;
+}
+
+#title{
+    position: absolute;
+    top: 10rem;
+    left: 34%;
+}
+#title .search-heading {
+    position: absolute;
+    width: 30rem;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+}
+
+#businesslists-title h1 {
+    /* border: 2px solid red; */
+    color: #fff;
+    font-size: 3rem;
+}
+
+.business-list{
+    max-width: fit-content;
+    height: 25rem;
+    margin: 6rem 4rem -2rem 5rem;
+    border-radius: 5px ;
+    display: inline-block;
+    box-shadow: 3px 0px 5px 1px rgba(0,0,0,0.74);    
+}
+.store-img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.business-name{
+    margin:0.5rem 1rem;    
+}
+.business-name .business-title{
+    padding: 3px 4px;
+    border-radius: 5px;
+    border: 1px solid #343a40 ;
+    background-color:#6c757d;
+    color: #f8f9fa;
+    box-shadow: none;
+    
+}
+.business-name .store-name{
+    margin:1rem 0;    
+}
+
+.business-name .store-name a{
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+.business-details h4, p{
+    margin: 0 0 1rem 0;
+}
+.business-details h4 .title{
+    font-style: bold;
+    text-decoration: none ;
+    color: black;
+}
+
+.business-desc{
+    max-width: 70%;
+    max-height: 70%;
+    margin-left:1rem;
+    padding: 3px 5px;
+}
+#result{
+    position: absolute;
+    top: 30rem;
+    height: 45%;
+    width: 95%;
+    left: 2rem;
+    background: #fff;
+    margin: 2rem 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.69);
+
+}
+#no-result{
+    /* border: 2px solid red; */
+    margin: 2rem;
+    color: #6c757d;
+}
+
+#no-result h4{
+    font-size: 2rem;
+}
+#no-result p , #no-result li{
+    margin-top: 1rem;
+    font-size: 20px;
+}
+#no-result li{
+    margin-left: 2rem;
+}
+#no-result b{
+    font-size: 1.5rem;
+}
+#btn-group{
+    margin: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+#btn-group .btn-lists{
+    border:none;
+    margin: 5rem 4px;
+    padding: 15px 4px;
+    width: 4rem;
+    height: 1rem;
+    border-radius: 5px;
+    font-family: Nanum Gothic;
+    border: 1px solid #343a40 ;
+    text-decoration: none;
+    text-align: center;
+    color: #0d6efd; 
+    font-family: Nanum Gothic;
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.69);
+}
+

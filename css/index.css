@@ -1,0 +1,222 @@
+html{
+    background-color: #e9ecef;
+    font-family : Nanum Gothic;
+}
+
+#home {
+    /* border: 2px solid red ; */
+    display: grid;
+    /* justify-content: center; */
+    position: absolute;
+    top: 10rem;
+    left: 27%;
+
+}
+
+#home h1 {
+    color: #fff;
+    text-align: center;
+    /* border: 2px solid red ; */
+    font-size: 3rem;
+}
+
+#home p {
+    margin-top: 1rem;
+    color: #fff;
+    text-align: center;
+  
+    font-size: 25px;
+}
+
+.search {
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 2rem  ;
+    width: 120%;
+    right: 5%;
+}
+
+
+#business-name {
+    width: 50%;
+    height: 110%;
+}
+
+#business-loaction {
+    width: 30%;
+    height: 110%;
+}
+
+
+#business-name, #business-loaction {
+    margin: 2px 13px;
+    padding: 2px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 1.4rem;
+    height: 2rem;
+    font-family : Nanum Gothic;
+   
+}
+
+.search-btn {
+    height: 2.3rem;
+    width: 20%;
+    border-radius: 5px;
+    margin: 2px 0 0 1rem;
+  
+    border: none;
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 1.4rem;
+
+}
+
+.search-btn:hover {
+    color: #343a40;
+    cursor: pointer;
+}
+
+.search-btn a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family : Nanum Gothic;
+    color: white;
+}
+
+#icons{
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 21rem;
+    left: 13%;
+    width: 80%;   
+}
+
+#icons .fa-solid{
+    margin: 1rem;
+    text-decoration: none;
+    color:#dee2e6;
+    font-size: 40px;
+    width: 15%;
+    text-align: center;
+    padding: 8px;
+    
+}
+#icons .fa-solid:hover{
+    color: #fff;
+    background-color: #0d6efd;
+    border-radius: 5px;
+    padding: 8px;
+
+}
+
+.falocation{
+    position: relative;
+    font-size: 18px;
+    color:#6c757d;
+    right: 2.5rem;
+
+
+}
+#icons p{
+    margin-top: 1rem;
+    font-size: 10px ;
+    text-align: center;
+    color:#dee2e6;
+
+}
+
+
+#home-description {
+    margin: 5rem 1rem 0 1rem;
+    display: grid;
+    background: #fff;
+    height: 23rem;
+    box-shadow: 2px 2px 8px 1px #343a40;
+    border-radius: 5px;
+    border: none;
+
+    /* border: 2px solid red; */
+}
+
+#home-description h1 {
+    text-align: center;
+    /* margin: 1rem; */
+    font-size: 3rem;
+
+}
+#home-description p {
+    /* border: 2px solid red; */
+    width: 32rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#maximize-img{
+    position: absolute;
+    left: 55%;
+    top: 32rem;
+}
+.list-icons{
+    text-decoration: none;
+}
+.list-icons p{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.list-btn{
+    margin: 1rem 1.3rem;
+    height: 15%;
+    width:30%;
+    border: none;
+    border-radius: 5px;
+    background-color: #0d6efd;
+    box-shadow: 2px 3px 2px 1px  #343a40 ;
+}
+
+.list-btn :hover{
+    color: #343a40;
+}
+.list-btn a{
+    text-decoration: none;
+    font-size: 1.4rem;
+        font-family : Nanum Gothic;
+        color: white;
+}
+
+
+#about-us{
+    /* border: none; */
+
+    border: 2px solid red;
+    margin: 5rem 1rem 0 1rem;
+    background-color: white;
+    box-shadow: 2px 2px 8px 1px #343a40;
+    border-radius: 5px;
+}
+#about-us h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem;
+
+}
+
+#about-us p{
+        text-align: right;
+        margin-top: 2rem;
+
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

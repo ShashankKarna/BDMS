@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Nanum Gothic;
+}
+
+html {
+    background-color: #fffee4d8; 
+}
+#sidebar {
+    /* border: 2px solid red; */
+    max-width: 12.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    min-height: 45rem;
+    background-color: #fff;
+  
+
+}
+#sidebar .hrline {
+    margin-top: 1rem;
+    height: 2px;
+    width: 130%;
+    background-color: #adb5bd;
+    position: relative;
+    right: 1.7rem;
+}
+#admin-desc {
+    /*  
+        border: 2px solid red; */
+        position: absolute;
+        top: 13rem;
+        left: 1.5rem;
+    
+}
+.details .details-items {
+        text-align: initial;
+        margin: 1rem 0 ;
+        display: block;
+        
+}
+.list-icons {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.list-icons a {
+    
+    color: black;
+    text-decoration: none;
+}
+    
+.list-icons a:hover {
+    text-decoration: underline;
+}
+
+.fa-solid{
+    color: #495057;
+     font-size: 20px;
+     margin-right: 8px;
+}
+
+
+#back{
+    /* border: 2px solid red; */
+    display: inline;
+    top: 0.5rem;
+    position: absolute;
+    left: 18%;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+  
+#datatable{
+    position: absolute;
+    top: 5rem;
+    left:19rem;
+    width: 75%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #495057;
+    padding: 1rem; 
+    border-collapse: collapse;
+}
+ #myTable{
+    padding: 1rem; 
+    text-align: center;
+
+ 
+}
+.thead, .tbody{
+    border: 1px solid #495057;
+    
+}
+
+.line-break{
+    margin-top: 1rem;
+    height: 1px;
+    width: 83.2%;
+    background-color: #adb5bd;
+    position: absolute;
+    right: 0;
+    top: 3rem;
+    
+}
+.btn{
+    margin: 0 1rem;
+    width: 35%;
+    border-radius: 5px;
+    padding: 5px 3px;
+    border: none;
+    background-color: #0d6efd;
+    font-size: 1rem;
+    color: white;
+    box-shadow: 1px 1px 1px 1px #343a40;
+}
+.action, .actionbtn, .description{
+   width:12rem;
+}
+.delete:hover{
+  
+    background-color: #dc3545;
+}
+
+
+

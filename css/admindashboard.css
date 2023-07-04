@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Nanum Gothic;
+
+}
+
+html {
+    background-color: #fffee4d8;
+
+    
+}
+fieldset {
+    position: relative;
+    padding-left: 2rem;
+    left: 2rem;
+
+}
+
+#sidebar {
+    /* border: 2px solid red; */
+    max-width: 12.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    min-height: 57rem;
+    background-color: #fff;
+  
+
+}
+
+#sidebar .hrline {
+    margin-top: 1rem;
+    height: 2px;
+    width: 130%;
+    background-color: #adb5bd;
+    position: relative;
+    right: 1.7rem;
+}
+#admin-desc {
+/*  
+    border: 2px solid red; */
+    position: absolute;
+    top: 13rem;
+    left: 1.5rem;
+
+}
+
+.details .details-items {
+    text-align: initial;
+    margin: 1rem 0 ;
+    display: block;
+    
+}
+#change-info {
+
+    max-width: 40%;
+    position: absolute;
+    top: 1rem;
+    left:17rem;
+    min-width: 40%;
+   
+    
+}
+
+#change-info .fieldset {
+    background-color: #fff;
+    border-radius: 5px;
+ 
+
+}
+
+#change-info .edit {    
+    margin: 1rem;
+}
+
+#change-info .edit .edit-group {
+
+    margin-top: 1rem;
+}
+
+.edit-input {
+    font-family: Nanum Gothic;
+    font-size: 1rem;
+    max-width: 90%;
+    min-width: 90%;
+    max-height: 2rem;
+    min-height: 2rem;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding-left: 1rem;
+}
+
+
+.edit-profile {
+    margin-top: 1rem;
+    width: 25%;
+    border-radius: 5px;
+    padding: 5px 3px;
+    border: none;
+    background-color: #0d6efd;
+    font-size: 1rem;
+    color: white;
+    box-shadow: 1px 1px 1px 1px #343a40;
+}
+
+.line-break{
+    margin-top: 1rem;
+    height: 1px;
+    width: 83.4%;
+    background-color: #adb5bd;
+    position: absolute;
+    right: 0;
+    top: 27rem;
+}
+#business-list{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 30rem;
+    left:19rem;
+    width: 75%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #495057;
+    padding: 1rem; 
+    border-collapse: collapse;
+}
+#myTable{
+    padding: 1rem; 
+    text-align: center;
+
+}
+.thead, .tbody{
+    border: 1px solid #495057;
+    
+}
+
+.btn{
+    margin: 0 1rem;
+    width: 35%;
+    border-radius: 5px;
+    padding: 5px 3px;
+    border: none;
+    background-color: #0d6efd;
+    font-size: 1rem;
+    color: white;
+    box-shadow: 1px 1px 1px 1px #343a40;
+}
+
+.action, .actionbtn{
+    /* border: 2px solid black; */
+   width:15rem;
+}
+.edit-profile:hover,.verify:hover{
+    
+    background-color: #198754;
+}
+.delete:hover{
+  
+    background-color: #dc3545;
+}
+
+
+.list-icons {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.list-icons a {
+    
+    color: black;
+    text-decoration: none;
+}
+    
+.list-icons a:hover {
+    text-decoration: underline;
+}
+
+.fa-solid{
+    color: #495057;
+     font-size: 20px;
+     margin-right: 8px;
+}
+.admin{
+    margin-right: 4px;
+}
